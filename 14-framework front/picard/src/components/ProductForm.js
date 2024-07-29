@@ -165,7 +165,7 @@ const ProductForm = ({ onSave }) => {
                 </button>
             </form>
             <nav style={{ marginTop: '20px' }}>
-                <button onClick={() => navigate('/product-list')} style={{ marginRight: '15px' }}>Voir la Liste des produits</button>
+                <button onClick={() => navigate('/product-list')} style={{ marginRight: '15px' }}>Voir la liste des produits</button>
                 <button onClick={() => navigate('/')} style={{ marginRight: '15px' }}>Accueil</button>
             </nav>
         </div>
